@@ -15,20 +15,6 @@
        android:text="@string/startFloat"
        />
    
-   <Button 
-       android:id="@+id/btnShell"
-       android:text="Shell"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@id/startSmallFloat"
-       />
    
-   <Button 
-       android:id="@+id/btnShowRunning"
-       android:text="show Running"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@id/btnShell"
-       />
 
 </RelativeLayout>
