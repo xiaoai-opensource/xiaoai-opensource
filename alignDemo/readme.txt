@@ -1,0 +1,1 @@
+这个Demo仅仅展示了几种常用的对齐方式，包括文本对齐，LinearLayout对齐，RelativeLayout对齐

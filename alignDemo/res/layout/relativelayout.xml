@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnStand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标准物1" />
+
+        <Button
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnStand"
+            android:text="right->标准物1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnStand2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标准物2" />
+
+        <Button
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnStand2"
+            android:layout_toRightOf="@id/btnStand2"
+            android:text="right_bottom->标准物2" />
+    </RelativeLayout>
+
+</LinearLayout>
